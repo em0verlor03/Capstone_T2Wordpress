@@ -1,0 +1,27 @@
+[05-Sep-2015 01:05:52 UTC] WordPress database error Incorrect parameter count in the call to native function 'LCASE' for query select ID,post_author,post_title,post_name,guid,post_content,post_mime_type
+from wp_posts where 
+INSTR(LCASE(post_author), '<script') +
+INSTR(LCASE(post_title), '<script') +
+INSTR(LCASE(post_name), '<script') +
+INSTR(LCASE(guid), '<script') +
+
+INSTR(LCASE(post_author), 'eval(') +
+INSTR(LCASE(post_title), 'eval(') +
+INSTR(LCASE(post_name), 'eval(') +
+INSTR(LCASE(guid), 'eval(') +
+INSTR(LCASE(post_content), 'eval(') +
+
+INSTR(LCASE(post_author), 'eval (') +
+INSTR(LCASE(post_title), 'eval (') +
+INSTR(LCASE(post_name), 'eval (') +
+INSTR(LCASE(guid), 'eval (') +
+IINSTR(LCASE(post_content), 'eval (') +
+
+INSTR(LCASE(post_content), 'document.write(unescape(') +
+INSTR(LCASE(post_content), 'try{window.onload') +
+INSTR(LCASE(post_content), 'setAttribute(\'src\'') +
+INSTR(LCASE(post_mime_type), 'script') +
+INSTR(LCASE(document.write(string.fromcharcode), 'script') >0
+
+
+ made by do_action('stop-spammers_page_ss_threat_scan'), call_user_func_array, kpg_ss_threat_scan, include_setting, require_once('/plugins/stop-spammer-registrations-plugin/settings/kpg_ss_threat_scan.php')
