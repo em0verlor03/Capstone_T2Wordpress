@@ -1,0 +1,604 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Utopia v2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2015-04-13 09:36:57+0000\n"
+"Last-Translator: yuyazz <yuya1@hotmail.fr>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n>1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: 404.php:18
+#@ utopia
+msgid "This is somewhat embarrassing, isn&rsquo;t it?"
+msgstr "Ceci est embarassant n'est ce pas?"
+
+#: 404.php:22
+#@ utopia
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "On dirait qu'on ne peut pas trouver ce que vous recherchez.Une autre recherche peut etre?"
+
+#: archive.php:29
+#, php-format
+#@ utopia
+msgid "Daily Archives: %s"
+msgstr "Archives journalières"
+
+#: archive.php:31
+#, php-format
+#@ utopia
+msgid "Monthly Archives: %s"
+msgstr "Archives mensuelles"
+
+#: archive.php:31
+#@ utopia
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: archive.php:33
+#, php-format
+#@ utopia
+msgid "Yearly Archives: %s"
+msgstr "Archives annuelles"
+
+#: archive.php:33
+#@ utopia
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: archive.php:35
+#@ utopia
+msgid "Archives"
+msgstr ""
+
+#: author.php:32
+#, php-format
+#@ utopia
+msgid "Author Archives: %s"
+msgstr "Archives par auteur"
+
+#: author.php:61
+#: content.php:62
+#, php-format
+#@ utopia
+msgid "About %s"
+msgstr "A propos %s"
+
+#: category.php:22
+#, php-format
+#@ utopia
+msgid "Category Archives: %s"
+msgstr "Archives par catégories: %s"
+
+#: comments.php:31
+#, php-format
+#@ utopia
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Un commentaire sur &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s commentaires sur &ldquo;%2$s&rdquo;"
+
+#: comments.php:42
+#@ utopia
+msgid "Comment navigation"
+msgstr "Navigation Commentaire"
+
+#: comments.php:43
+#@ utopia
+msgid "&larr; Older Comments"
+msgstr "&larr; Vieux commentaires"
+
+#: comments.php:44
+#@ utopia
+msgid "Newer Comments &rarr;"
+msgstr "Commentaires récents &rarr;"
+
+#: comments.php:53
+#@ utopia
+msgid "Comments are closed."
+msgstr "Commentaires fermés."
+
+#: content-aside.php:15
+#: content-audio.php:24
+#: content-gallery.php:24
+#: content-image.php:13
+#: content-link.php:14
+#: content-quote.php:13
+#: content-status.php:31
+#: content-video.php:23
+#: content.php:44
+#@ utopia
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Lire la suite <span class=\"meta-nav\">&rarr;</span>"
+
+#: content-aside.php:20
+#: content-link.php:18
+#: content-quote.php:17
+#: content-status.php:15
+#, php-format
+#@ utopia
+msgid "Permalink to %s"
+msgstr "Permalien vers %s"
+
+#: content-aside.php:23
+#: content-image.php:23
+#: content-link.php:21
+#: content-quote.php:20
+#: content-status.php:37
+#: content.php:33
+#@ utopia
+msgid "Leave a reply"
+msgstr "Laissez une réponse"
+
+#: content-aside.php:23
+#: content-image.php:23
+#: content-link.php:21
+#: content-quote.php:20
+#: content-status.php:37
+#: content.php:33
+#@ utopia
+msgid "1 Reply"
+msgstr "1 Reponse"
+
+#: content-aside.php:23
+#: content-image.php:23
+#: content-link.php:21
+#: content-quote.php:20
+#: content-status.php:37
+#: content.php:33
+#@ utopia
+msgid "% Replies"
+msgstr "% Reponses"
+
+#: content-aside.php:26
+#: content-audio.php:31
+#: content-chat.php:29
+#: content-gallery.php:39
+#: content-image.php:26
+#: content-link.php:24
+#: content-page.php:24
+#: content-quote.php:23
+#: content-status.php:40
+#: content-video.php:35
+#: content.php:51
+#: functions.php:409
+#: image.php:30
+#@ utopia
+msgid "Edit"
+msgstr "Editer"
+
+#: content-audio.php:25
+#: content-chat.php:24
+#: content-gallery.php:25
+#: content-page.php:21
+#: content-video.php:24
+#: content.php:45
+#: image.php:95
+#@ utopia
+msgid "Pages:"
+msgstr ""
+
+#: content-gallery.php:36
+#: content-video.php:32
+#@ utopia
+msgid "Leave a comment"
+msgstr "Laissez un commentaire"
+
+#: content-gallery.php:36
+#: content-video.php:32
+#@ utopia
+msgid "One comment so far"
+msgstr "Un seul commentaire"
+
+#: content-gallery.php:36
+#: content-video.php:32
+#@ utopia
+msgid "View all % comments"
+msgstr "Voir tous les % commentaires"
+
+#: content-link.php:12
+#@ utopia
+msgid "Link"
+msgstr "Lien"
+
+#: content-none.php:13
+#: index.php:51
+#: search.php:35
+#@ utopia
+msgid "Nothing Found"
+msgstr "Aucun résultat"
+
+#: content-none.php:17
+#: index.php:55
+#@ utopia
+msgid "Apologies, but no results were found. Perhaps searching will help find a related post."
+msgstr "Désolé, nous n'avons rien trouvé.Veuillez effectuer une nouvelle recherche"
+
+#: content.php:16
+#@ utopia
+msgid "Featured post"
+msgstr "Article à la une"
+
+#: content.php:66
+#, php-format
+#@ utopia
+msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Voir tous les articles par %s <span class=\"meta-nav\">&rarr;</span>"
+
+#: functions.php:64
+#: functions.php:94
+#@ utopia
+msgid "Primary Menu"
+msgstr "Menu Principal"
+
+#: functions.php:65
+#: functions.php:95
+#@ utopia
+msgid "Top Menu"
+msgstr "Menu Top"
+
+#: functions.php:146
+#@ utopia
+msgctxt "Open Sans font: on or off"
+msgid "on"
+msgstr "le"
+
+#: functions.php:152
+#@ utopia
+msgctxt "Open Sans font: add new subset (greek, cyrillic, vietnamese)"
+msgid "no-subset"
+msgstr ""
+
+#: functions.php:262
+#, php-format
+#@ utopia
+msgid "Page %s"
+msgstr ""
+
+#: functions.php:293
+#@ utopia
+msgid "Main Sidebar"
+msgstr "Sidebar principale"
+
+#: functions.php:295
+#@ utopia
+msgid "Appears on posts and pages except the optional Front Page template, which has its own widgets"
+msgstr "Apparait sur les articles et les pages, excepté la page d'accueil"
+
+#: functions.php:303
+#@ utopia
+msgid "First Front Page Widget Area"
+msgstr "Widget Page d'accueil"
+
+#: functions.php:305
+#: functions.php:315
+#@ utopia
+msgid "Appears when using the optional Front Page template with a page set as Static Front Page"
+msgstr "Apparait sur la page d'accueil définie par défaut"
+
+#: functions.php:313
+#@ utopia
+msgid "Second Front Page Widget Area"
+msgstr "Widget Accueil II"
+
+#: functions.php:322
+#@ utopia
+msgid "Footer Widget Area"
+msgstr "Widget footer"
+
+#: functions.php:324
+#@ utopia
+msgid "Appears in the footer"
+msgstr "Apparait dans le footer"
+
+#: functions.php:351
+#: single.php:21
+#@ utopia
+msgid "Post navigation"
+msgstr "Navigation des articles"
+
+#: functions.php:352
+#@ utopia
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Articles précédents"
+
+#: functions.php:353
+#@ utopia
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Articles récents <span class=\"meta-nav\">&rarr;</span>"
+
+#: functions.php:381
+#@ utopia
+msgid "Pingback:"
+msgstr ""
+
+#: functions.php:381
+#@ utopia
+msgid "(Edit)"
+msgstr "(Editer)"
+
+#: functions.php:395
+#@ utopia
+msgid "Post author"
+msgstr "Auteur de l'article"
+
+#. translators: 1: date, 2: time
+#: functions.php:398
+#, php-format
+#@ utopia
+msgid "%1$s at %2$s"
+msgstr "%1$s a %2$s"
+
+#: functions.php:404
+#@ utopia
+msgid "Your comment is awaiting moderation."
+msgstr "Votre commentaire est en attente de modération."
+
+#: functions.php:413
+#@ utopia
+msgid "Reply"
+msgstr "Répondre"
+
+#: functions.php:436
+#: functions.php:439
+#@ utopia
+msgid ", "
+msgstr ""
+
+#: functions.php:444
+#, php-format
+#@ utopia
+msgid "View all posts by %s"
+msgstr "Voir tous les articles par %s"
+
+#: functions.php:449
+#: functions.php:451
+#: functions.php:453
+#, php-format
+#@ utopia
+msgid "This entry was posted on %3$s<span class=\"by-author\"> by %4$s</span>."
+msgstr "Posté le %3$s<span class=\"by-author\"> par %4$s</span>."
+
+#: image.php:27
+#, php-format
+#@ utopia
+msgid "<span class=\"meta-prep meta-prep-entry-date\">Published </span> <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a>."
+msgstr "<span class=\"meta-prep meta-prep-entry-date\">Publié</span> <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> a <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> dans <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a>."
+
+#: image.php:34
+#@ utopia
+msgid "&larr; Previous"
+msgstr "&larr; Précédent"
+
+#: image.php:35
+#@ utopia
+msgid "Next &rarr;"
+msgstr "Suivant &rarr;"
+
+#: inc/customizer.php:33
+#: inc/customizer.php:43
+#@ utopia
+msgid "Logo"
+msgstr ""
+
+#: inc/customizer.php:51
+#@ utopia
+msgid "Sidebar position"
+msgstr "Position de la sidebar"
+
+#: inc/customizer.php:61
+#@ utopia
+msgid "Layout"
+msgstr "Affichage"
+
+#: index.php:39
+#@ utopia
+msgid "No posts to display"
+msgstr "Aucun article"
+
+#: index.php:43
+#, php-format
+#@ utopia
+msgid "Ready to publish your first post? <a href=\"%s\">Get started here</a>."
+msgstr "Prêt à publier votre premier article? <a href=\"%s\">Commencez par ici</a>."
+
+#: lib/options.php:3
+#@ utopia
+msgid "Utopia Options"
+msgstr ""
+
+#: lib/options.php:11
+#@ utopia
+msgid "Enter a URL or upload an image to use for your login logo"
+msgstr "Entrez une url ou téléchargez une image pour votre logo"
+
+#: lib/options.php:15
+#: lib/options.php:41
+#@ utopia
+msgid "Upload Image"
+msgstr "Telechargez une image"
+
+#: lib/options.php:20
+#@ utopia
+msgid "Enter the URL of you would like the login logo to point to."
+msgstr "Entrez une url vers laquelle vous souhaitez que le logo pointe"
+
+#: lib/options.php:20
+#@ utopia
+msgid "By default it points to"
+msgstr "Par défaut le logo pointe vers"
+
+#: lib/options.php:24
+#@ utopia
+msgid "Enter the text to display when you hover your mouse over the login logo."
+msgstr "Entrez le texte que vous souhaitez afficher au survol du logo"
+
+#: lib/options.php:24
+#@ utopia
+msgid "By default it says \"Powered by WordPress\"."
+msgstr "Par défaut le lien indique \"Propulsé par WordPress\"."
+
+#: lib/options.php:28
+#@ utopia
+msgid "Enter custom CSS for the login screen."
+msgstr "Entrez votre propre css pour l'interface de connexion"
+
+#: lib/options.php:28
+#@ utopia
+msgid "If you are not familiar with CSS, you can leave this blank."
+msgstr "Si vous n'êtes pas familier avec le css, laissez vide."
+
+#: lib/options.php:30
+#@ utopia
+msgid "CSS options can be found by clicking here."
+msgstr "Les options css peuvent etre trouvées ici."
+
+#: lib/options.php:37
+#@ utopia
+msgid "Enter a URL or upload an image for your login screen background"
+msgstr "Entrez une url ou téléchargez une image pour l'arrière plan de l'interface de connexion"
+
+#: lib/options.php:48
+#@ utopia
+msgid "Enter the text you would like to display in the dashboard footer."
+msgstr "Entrez le texte à afficher dans le footer"
+
+#: lib/options.php:48
+#@ utopia
+msgid "By default it says \"Thank you for creating with WordPress\"."
+msgstr "Par défaut le texte est \"Merci d'avoir fait appel à WordPress\"."
+
+#: lib/options.php:54
+#@ utopia
+msgid "Click yes if you want to remove all the widgets on dashboard,leave it blank if you want to keep it"
+msgstr "Cochez la case si vous souhaitez supprimer tous les widgets du panneau d'administration"
+
+#: lib/options.php:60
+#@ utopia
+msgid "Click yes if you want to remove all the wordpress icon on adminbar,leave it blank if you want to keep it"
+msgstr "Cochez la case si vous souhaitez supprimer les icones inutiles de la barre d'administration"
+
+#: lib/options.php:69
+#@ utopia
+msgid "Click yes if you want to remove update nag"
+msgstr "Cochez la case si vous souhaitez supprimer l'avertissement de mise à jour"
+
+#: lib/options.php:77
+#@ utopia
+msgid "Click yes if you want to remove the help tab"
+msgstr "Cochez la case si vous souhaitez supprimer l'onglet Aide"
+
+#: lib/options.php:82
+#@ utopia
+msgid "Click yes if you want to remove the screen option tab"
+msgstr "Cochez la case si vous souhaitez supprimer les options d'ecran"
+
+#: lib/options.php:86
+#@ utopia
+msgid "Click yes if you want to keep your name and erase the word howdy in the admin bar"
+msgstr "Cochez la case si vous souhaitez supprimer howdy et ne laisser que votre pseudo dans la barre d'administration"
+
+#: lib/options.php:92
+#@ utopia
+msgid "Check the menu tab you want to remove"
+msgstr "Cochez la case si vous souhaitez supprimer"
+
+#: lib/options.php:116
+#@ utopia
+msgid "How your login logo image looks:"
+msgstr "Le rendu de votre logo :"
+
+#: lib/theme-option.php:306
+#, php-format
+#@ utopia
+msgid "Howdy, %1$s"
+msgstr ""
+
+#: search.php:19
+#, php-format
+#@ utopia
+msgid "Search Results for: %s"
+msgstr "Résultats de recherche pour: %s"
+
+#: search.php:39
+#@ utopia
+msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+msgstr "Désolé, mais aucun élément ne correspond à votre recherche.Veuillez recommencer"
+
+#: single.php:22
+#@ utopia
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr "Article précédent"
+
+#: single.php:23
+#@ utopia
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr "Article suivant"
+
+#: tag.php:22
+#, php-format
+#@ utopia
+msgid "Tag Archives: %s"
+msgstr "Archives par mots clés: %s"
+
+#: inc/customizer.php:26
+#@ utopia
+msgid "Link and Highlight Color"
+msgstr ""
+
+#: inc/customizer.php:35
+#@ utopia
+msgid "Upload a logo to replace the default site name and description in the header"
+msgstr "Chargez un logo pour remplacer le nom et la description"
+
+#: inc/customizer.php:74
+#@ utopia
+msgid "Logo placement"
+msgstr "Placement du logo"
+
+#: inc/customizer.php:84
+#@ utopia
+msgid "Copyrigth text"
+msgstr "Texte copyright"
+
+#: inc/customizer.php:89
+#@ utopia
+msgid "Default copyright text"
+msgstr "Texte copyright par défaut"
+
+#: inc/customizer.php:95
+#@ utopia
+msgid "Copyright text"
+msgstr "Texte copyright"
+
+#: inc/customizer.php:109
+#@ utopia
+msgid "Hide copyright text"
+msgstr "Cacher le texte copyright"
+
+#: footer.php:28
+#@ responsive
+msgid "&copy;"
+msgstr ""
+
+#: footer.php:29
+#@ default
+msgid "No copyright information has been saved yet."
+msgstr ""
+

@@ -1,0 +1,98 @@
+
+#wrapper {
+width: 100%;
+}
+
+#blog-title {
+font-weight: normal;
+font-size: 12px;
+line-height: 1.5;
+}
+
+#menu_wrapper {
+position: static;
+width: 555px;
+}
+.menu {
+width: auto;
+float: right;
+}
+.menu ul li {
+margin-right: 0;
+}
+.sf-menu li {
+background: transparent;
+border: none;
+}
+.sf-menu a {
+border: none;
+}
+.menu a:link, .menu a:visited {
+padding: 0 17px;
+}
+
+#main {
+padding-top: 0;
+overflow: visible;
+}
+
+#container {
+width: 600px;
+padding: 0;
+}
+
+
+h2.entry-title { /* The H2 tag is used for page titles, and post titles on blog page. */
+font-size: 30px;
+margin: 0;
+}
+.entry-content { 
+padding: 0;
+}
+.entry-content h1,
+.entry-content h2,
+.entry-content h3 { 
+padding: 0;
+}
+.hentry {
+padding: 0;
+}
+
+.aside, .aside input {
+font-size: 16px;
+}
+#primary, #primary_custom {
+border: none;
+overflow: visible;
+}
+#sidebar #primary {
+margin-top: 0;
+padding-top: 0;
+overflow: visible;
+}
+.aside h3 {
+font-style: normal;
+}
+.aside ul {
+padding: 0;
+}
+.aside ul {
+list-style: none;
+margin-left: 0;
+}
+.aside ul ul {
+list-style: disc;
+margin-left: 0;
+}
+.aside ul ul li { /* This styles the sidebar bullet list. */
+list-style: none;
+line-height: 2;
+padding-left: 0px;
+border-bottom: 1px dotted #ccc;
+}
+.aside ul ul ul {
+margin-left: 0px;
+}
+#sidebar #primary #search-2 .widgettitle {
+display: none;
+}

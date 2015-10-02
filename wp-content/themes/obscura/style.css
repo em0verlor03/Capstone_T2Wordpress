@@ -1,0 +1,48 @@
+/*   
+Theme Name: Obscura
+Theme URI: http://www.photocrati.com/obscura-free-photography-theme/
+Description: Obscura is a clean, simple, classy two-column theme, fit for any business website or photography portfolio. This photography WordPress theme is mobile friendly, so go ahead and share your website from your phone or tablet to your friends and clients! The theme also supports the popular NextGEN Gallery plugin to display and manage your online photo galleries.
+Tags: white, gray, light, custom-header, custom-menu, featured-images, two-columns, one-column, fixed-layout, full-width-template, theme-options, right-sidebar, threaded-comments, sticky-post, microformats
+Author: Photocrati
+Author URI: http://www.photocrati.com
+Contributors: Photocrati
+Template: thematic
+Version: 1.0.5
+Text Domain: obscura
+License: GNU General Public License v2.0
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+.
+The Photocrati Obscura Theme is copyright Photocrati Media. http://photocrati.com/
+The theme uses Thematic which is copyright Ian Stewart http://themeshaper.com/
+The code is released under GNU General Public License, version 2 (GPL).
+.
+*/
+
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('http://fonts.googleapis.com/css?family=Days+One:400,700');
+
+/* Reset browser defaults */
+@import url('../thematic/library/styles/reset.css');
+
+/* Apply basic typography styles */
+@import url('../thematic/library/styles/typography.css');
+
+/* Apply a basic layout */
+@import url('../thematic/library/layouts/2c-r-fixed.css');
+
+/* Apply basic image styles */
+@import url('../thematic/library/styles/images.css');
+
+/* Apply default theme styles and colors */
+@import url('style/default.css');
+
+/* Prepare theme for plugins */
+@import url('../thematic/library/styles/plugins.css');
+
+/* Apply default theme styles and colors */
+@import url('style/preset.css');
+/* Apply tweaks */
+@import url('style/tweak.css');
+/* Apply tweaks specific */
+@import url('style/tweak-obscura.css');

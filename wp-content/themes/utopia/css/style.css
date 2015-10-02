@@ -1,0 +1,13 @@
+/** 
+ **/
+
+.utopia .postbox {
+margin-bottom: 20px;
+padding: 2em !important;
+line-height: 1;
+}
+
+.utopia h2 {
+text-align: center;
+}
+#first_section, #second_section,#third_section{border-bottom:1px solid #eee}

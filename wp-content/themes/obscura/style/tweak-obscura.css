@@ -1,0 +1,96 @@
+
+body {
+background-color: #f0f0ed;
+}
+
+a:link,a:visited { 
+color: #3b8dbd;
+}
+
+.menu ul li {
+background: transparent;
+}
+.sf-menu li:hover, .sf-menu li.sfHover, .sf-menu a:focus, .sf-menu a:hover, .sf-menu a:active {
+background: transparent;
+}
+.menu a:link,.menu a:visited {
+color: #ffffff;
+}
+.menu a:hover,.menu a:active,
+.menu .current_page_item a:link,
+.menu .current_page_item a:visited  {
+color: #3b8dbd;
+}
+.menu .current_page_item ul a:link,
+.menu .current_page_item ul a:visited { 
+color: #3b8dbd;
+}
+.menu .current_page_item ul li a:hover,
+.menu .current_page_item ul li a:active {
+color: #3b8dbd;
+}
+
+#header {
+background:	#33363b;
+height:	120px;
+}
+#branding {
+padding:	5px 0 10px 0;
+}
+#branding h1 {
+font-family: 'Days One', serif;
+color: #ffffff;
+}
+#branding .description {
+color: #999199;
+}
+
+.home .type-page .entry-title {
+display: none;
+}
+
+#comments-list li.alt {
+background-color: transparent;
+}
+#comments input#submit:hover {
+background: #3b8dbd;
+}
+#respond {
+background-color: transparent;
+}
+
+#sidebar a {
+color: #3b8dbd;
+}
+#sidebar #primary {
+float: none;
+}
+.aside ul {
+margin-left: 10px;
+}
+
+.footer_wrapper {
+background:	#33363b;
+}
+
+.footer-widget-area { 
+text-transform: normal;
+}
+.footer-widget-area .widgetcontaine .widget-title { 
+text-transform: normal;
+}
+
+#subsidiary {
+padding: 0;
+}
+#footer {
+border: none;
+}
+
+#header {border-top: 20px solid #25272a;border-bottom:4px solid #d24d33;}
+#sidebar {border-left: 6px double #DDDDDB;}
+#sidebar .widget-title, #sidebar .widgettitle {border-top: none;padding-top:none;}
+#sidebar .widget-title, #sidebar .widgettitle {border-top: 12px solid #DDDDDB;padding-top:20px;}
+
+.footer_wrapper {border-top: 4px solid #82b964;}
+
